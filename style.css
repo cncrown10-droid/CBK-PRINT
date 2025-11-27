@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #0077ff;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    box-shadow: 0 2px 4px #0002;
+}
+
+nav a {
+    color: #0077ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TITRES */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* SERVICES */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #0001;
+    text-align: center;
+}
+
+/* GALERIE */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 200px;
+    height: 140px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* CONTACT */
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #222;
+    color: white;
+}
